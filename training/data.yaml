@@ -1,0 +1,4 @@
+train: data/raw/images/train
+val: data/raw/images/val
+nc: 1
+names: ["person"]

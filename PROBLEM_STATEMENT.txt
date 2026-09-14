@@ -1,0 +1,7 @@
+Project Title
+
+Development of a Real-Time Depth-Aware Human Detection and Proximity Warning System Using YOLO and a 3D Depth Camera
+
+Project Brief:
+
+This project presents the design and implementation of an automated, real-time spatial surveillance system capable of concurrent human detection and precise distance estimation. The proposed architecture integrates a YOLO object detection model with a 3D depth camera to achieve comprehensive environmental perception. To achieve low-latency execution, the system processes RGB video streams for person detection while mapping bounding box coordinates to the aligned depth sensor array to compute real-time distance metrics. To enhance operational safety in restricted environments, a dynamic proximity-alert mechanism was implemented with a configurable safety threshold. The visual interface provides immediate cognitive feedback by altering bounding box states from green to red alongside a text-based warning when a proximity breach occurs. Experimental validation demonstrates that the system achieves high inference speeds and precise depth accuracy under varied environmental conditions. Ultimately, this framework provides a highly scalable edge-AI solution ideal for applications in industrial automation safety, restricted-area monitoring, and human-robot collaboration.
